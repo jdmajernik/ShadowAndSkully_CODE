@@ -1,0 +1,17 @@
+diff a/Source/ShadowAndSkully/Private/SaveFileManager.cpp b/Source/ShadowAndSkully/Private/SaveFileManager.cpp	(rejected hunks)
+@@ -126,6 +126,15 @@
+ 	UGameplayStatics::GetAllActorsOfClass(Controller->GetWorld(), AShadowMechanics::StaticClass(), TempFoundActors);
+ 	AllFoundActors += TempFoundActors;
+ 
++	UGameplayStatics::GetAllActorsOfClass(Controller->GetWorld(), ASkullyMechanics::StaticClass(), TempFoundActors);
++	AllFoundActors += TempFoundActors;
++
++	UGameplayStatics::GetAllActorsOfClass(Controller->GetWorld(), ABadSoulMechanics::StaticClass(), TempFoundActors);
++	AllFoundActors += TempFoundActors;
++
++	UGameplayStatics::GetAllActorsOfClass(Controller->GetWorld(), ADynamicCameraController::StaticClass(), TempFoundActors);
++	AllFoundActors += TempFoundActors;
++
+ 	if(!MapSaveData.Contains(Controller->GetWorld()->GetMapName()))
+ 	{
+ 		MapSaveData.Emplace(Controller->GetWorld()->GetMapName());
