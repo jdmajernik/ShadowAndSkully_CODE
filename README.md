@@ -23,6 +23,6 @@ Also, this was the first time I used a GUI for git (sourcetree). I still prefer 
 1. As nice as some of it turned out, there are also parts of my code that I didn't exactly organize or comment well.
 2. There are quite a few outdated or redundant systems that only add to the ineffeciency of the game, so I would have spent more time optomizing better.
 3. A lot of the systems aren't as complex as I feel would have been necessary for a full game. The AI specifically didn't react to environmental changes as well as I would've liked.
-4. I threw a lot of decisions on the Tick function, but I would tried to remove as much functionality from the main thread as possible.
+4. I threw a lot of decisions on the Tick function, but I would have tried to delegate some of the computations to async tasks as well as moving away from the Tick function as much as possible.
 5. I would have made better use of namespaces to clean up the PuzzleElement file. I threw too much in there and should have seperated it better.
 6. The async function in the dynamic camera is horrible. I just have it constantly running, which is a waste of resources. I would have absolutely fixed that.
