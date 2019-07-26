@@ -10,6 +10,7 @@ Before this, I had only worked in Unreal for appx. 3 months, so there was still 
 I was the only developer messing with the cpp-side, so my code was not reviewed or worked on by anyone else. I still attempted to keep it clean for readability, but that had the tendancy to go out the window during crunch time.
 
 This was my first time using LFS for Unreal, so there were quite a few issues that were created due to my inexperience that I had to solve.
+Also, this was the first time I used a GUI for git (sourcetree). I still prefer the standard bash terminal, but it definately made some aspects quicker and easier.
 
 ### What I'm Proud of
 1. This is my first real time understanding UE4's structure, so I feel that it shows with some pretty good code. I tried to also incorporate the needs of the team by creating variables for them to tweak in the editor. I also tried to hide some of the less-critical variables to prevent them from being overwhelming.
